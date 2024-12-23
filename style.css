@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+input,
+select,
+button {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: calc(33.33% - 10px);
+}
+
+button {
+    background: #2575fc;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #6a11cb;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #2575fc;
+    color: #fff;
+}
+
+.btn-delete {
+    color: white;
+    background-color: rgb(243, 240, 240);
+    border: none;
+    padding: 10px 20px;
+
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 1rem;
+}
+
+.btn-delete:hover {
+    background-color: rgb(247, 243, 243);
+}
+
+.btn-delete i {
+    margin-right: 8px;
+    color: red;
+}
+
+h3 {
+    text-align: right;
+    color: #333;
+    font-weight: bold;
+}
+
+#downloadReport {
+    width: 100%;
+    background: #6a11cb;
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 5px;
+}
